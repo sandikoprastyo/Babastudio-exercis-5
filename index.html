@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Form Registration</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+
+<body>
+    <div id="logo" class="container">
+        <h1><a href="#">FORM EXERCISE</a></h1>
+    </div>
+
+    <div id="page" class="container">
+        <div id="box1">
+            <h2 class="title"><a href="#">Member Registration Form</a></h2>
+            <div style="clear: both;">&nbsp;</div>
+            <div class="entry">
+                <p><strong>Fill out the registration form on the side with the correct data. All the fields that exist in this form must be filled</strong></p>
+
+            </div>
+        </div>
+
+        <div id="box2">
+            <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+            <form method="POST" action="#">
+                <h4>Fullname :</h4>
+                <input type="text" name="Fullname" id="fullname" value="Input Your Full Name" width="250px">
+                <h4>Username :</h4>
+                <input type="text" name="Username" id="Username" value="Input Your User Name">
+                <h4>Password* :</h4>
+                <input type="password" name="Password" id="password" required>
+                <h4>Email* :</h4>
+                <input type="email" name="Email" id="email" value="Input Your Email" required>
+                <h4>Gender :</h4>
+                <input type="radio" name="Gender" id="gender" value="Male" checked>Male <input type="radio" name="Gender" id="gender" value="Female">Famale
+                <h4>Birth date :</h4>
+                <input type="date" name="Date" id="date">
+                <h4>Hobby :</h4>
+                <input type="checkbox" active name="Hobby" id="hobby" value="Sport" checked>Sport <input type="checkbox" name="Hobby" id="hobby" value="Travel">Travel <input type="checkbox" name="Hobby" id="hobby" value="Culinery">Culinary <input type="checkbox"
+                    name="Hobby" id="hobby" value="Shopping">Shopping
+                <input type="checkbox" name="Hobby" id="hobby" value="Praying">Praying
+                <h4>Address : &nbsp;</h4>
+                <textarea type="text" name="Address" id="address" value="Input Your Address" rows="4" cols="30"></textarea>
+            </form>
+        </div>
+
+
+
+    </div>
+    <div id=" footer " class="container ">
+        <p>Copyright &copy; 2019 Sandiko prastyo </p>
+    </div>
+</body>
+
+</html>
